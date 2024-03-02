@@ -10,7 +10,7 @@ async function main() {
   // Wait for the contract to be deployed
   await nft.deployTransaction.wait();
 
-  console.log("MyNFT deployed to:", nft.address);
+  console.log("MyNFT deployed to:", nft.target);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
