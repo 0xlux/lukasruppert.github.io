@@ -8,7 +8,8 @@ async function main() {
   const nft = await MyNFT.deploy();
   
   // Wait for the contract to be deployed
-  await nft.deployTransaction.wait();
+  //await nft.deployTransaction.wait();
+  nft.deploymentTransaction().wait();
 
   console.log("MyNFT deployed to:", nft.target);
 }

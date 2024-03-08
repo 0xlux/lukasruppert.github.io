@@ -18,7 +18,7 @@ contract MyNFT is ERC721URIStorage {
 
         uint256 newItemId = _tokenIds.current();
         _mint(recipient, newItemId);
-        _setTokenURI(newItemId, tokenURI);
+        _setTokenURI(newItemId, https://bafybeigk7ydm7e6cll7t5nlc4jxmmiybq5bjh6awv7gbqlgitvlvqky7e4.ipfs.w3s.link);
 
         return newItemId;
     }
